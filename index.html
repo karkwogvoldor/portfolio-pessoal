@@ -1,0 +1,560 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jerônimo Eduardo Fuck — Back-End Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <span class="page-anchor" id="inicio" aria-hidden="true"></span>
+
+  <!-- TOP BAR -->
+  <header class="topbar">
+    <a class="logo" href="#inicio" data-reload-page>JFK</a>
+    <span class="topbar-sep">·</span>
+    <span style="color:var(--muted)">Brazil</span>&nbsp;
+    <span class="time" id="clk-brt"></span>
+    <span class="topbar-sep">·</span>
+    <span>
+      <span class="live-dot"></span>&nbsp;
+      <span style="color:var(--text)">disponível</span>
+    </span>
+    <nav class="topbar-links">
+      <a href="#inicio" data-scroll-top>Página Inicial</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencias">Experiências</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+  </header>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-tag">Back-End Developer</div>
+      <h1 class="hero-name">Jerônimo<br>Eduardo Fuck</h1>
+      <p class="hero-sub">
+        Engenheiro Químico em transição para
+        <span>desenvolvimento back-end</span>.
+        Construindo sistemas robustos, APIs e soluções orientadas a dados.
+      </p>
+    </section>
+
+    <section id="sobre" class="sobre">
+      <p class="sobre-label">sobre mim</p>
+      <div class="sobre-inner">
+        <div class="sobre-left">
+          <figure class="profile-photo">
+            <img src="assets/imagens/cracha.jpg" alt="Foto de Jerônimo Eduardo Fuck">
+          </figure>
+          <div class="sobre-divider"></div>
+          <div class="sobre-meta">
+            <div class="sobre-meta-item">
+              <p class="sobre-meta-label">localização</p>
+              <p class="sobre-meta-value">Brazil</p>
+            </div>
+            <div class="sobre-meta-item">
+              <p class="sobre-meta-label">status</p>
+              <p class="sobre-meta-value" style="color:#7a9a3a;">● disponível</p>
+            </div>
+          </div>
+        </div>
+        <div class="sobre-right">
+          <p class="sobre-bio">Sou um <strong>desenvolvedor apaixonado por criar experiências digitais</strong> que unem
+            design e tecnologia de forma inteligente. Gosto de transformar ideias complexas em interfaces simples e
+            funcionais.</p>
+          <p class="sobre-bio-2">Quando não estou codando, estou explorando novos frameworks, ouvindo música ou tomando
+            um café enquanto penso na próxima solução. Acredito que bom código é aquele que qualquer um consegue
+            entender.</p>
+          <a class="sobre-cta" href="#projetos">ver projetos →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects-section" id="projetos">
+      <p class="section-label">Projetos</p>
+      <div class="projects-shell">
+        <div class="projects-grid" id="grid">
+
+      <div class="project-card is-active" role="button" tabindex="0" data-cat="be" data-project="brasileirao"
+        data-expanded="Aplicação web para visualizar escalações, formações e elencos dos 20 clubes do Campeonato Brasileiro Série A. O projeto organiza dados de clubes em uma experiência navegável, com páginas para consulta de times, formações e informações estruturadas de elenco. No back-end, combina Python, FastAPI e PostgreSQL para servir os dados; no front-end, usa HTML, CSS e JavaScript para criar uma galeria clara e direta. É um projeto forte para demonstrar modelagem de dados, organização de API e deploy de uma aplicação completa.">
+        <div class="card-top">
+          <span class="card-num">01</span>
+          <span class="card-tag be">Python</span>
+        </div>
+        <h2 class="card-title">Brasileirão Update</h2>
+        <p class="card-desc">
+          Uma plataforma completa para acompanhamento do Campeonato Brasileiro, focada em fornecer dados estruturados
+          para fãs e desenvolvedores. O projeto centraliza informações de clubes, elencos e formações.
+        </p>
+        <div class="card-bottom">
+          <div class="card-links">
+            <a href="https://github.com/karkwogvoldor/football_brasileirao_update" target="_blank">Github →</a>
+            <a href="https://footballbrasileiraoupdate-production.up.railway.app/" target="_blank">Deploy →</a>
+          </div>
+          <span class="card-year">2024</span>
+        </div>
+      </div>
+
+      <div class="project-card" role="button" tabindex="0" data-cat="be" data-project="joseph"
+        data-expanded="Bot de Discord criado para facilitar o uso de utilitários no Counter-Strike 2. A ideia central é permitir que jogadores busquem granadas como smokes, flashes, molotovs e HEs diretamente pelo Discord, recebendo instruções e vídeos de execução. O projeto usa Python 3.12, Django, discord.py, PostgreSQL e BeautifulSoup, juntando bot, banco de dados, painel administrativo e scraping. É um projeto bem interessante porque resolve uma dor real de comunidade gamer e mostra integração entre automação, dados e experiência prática de uso.">
+        <div class="card-top">
+          <span class="card-num">02</span>
+          <span class="card-tag py">Discord Bot</span>
+        </div>
+        <h2 class="card-title">Joseph Bot — CS2 Utility Bot</h2>
+        <p class="card-desc">
+          Bot para Discord focado em utilitários de Counter-Strike 2, com busca de granadas, vídeos e instruções para
+          smokes, flashes, molotovs e HEs.
+        </p>
+        <div class="card-bottom">
+          <div class="card-links">
+            <a href="https://github.com/karkwogvoldor/joseph_bot" target="_blank">Github →</a>
+          </div>
+          <span class="card-year">2024</span>
+        </div>
+      </div>
+
+      <div class="project-card" role="button" tabindex="0" data-cat="be" data-project="avatar"
+        data-expanded="Aplicação interativa baseada no universo de Avatar: The Last Airbender, desenvolvida no desafio 7 Days of Code. O projeto oferece consulta de personagens e lore em dois idiomas, com mecanismo de busca, tradução temática e organização visual para personagens principais e secundários. A base técnica usa Python, Django e PostgreSQL, mostrando consumo e manipulação de dados, estruturação de projeto web e preocupação com uma interface clara para navegar por bastante conteúdo.">
+        <div class="card-top">
+          <span class="card-num">03</span>
+          <span class="card-tag py">Back-End</span>
+        </div>
+        <h2 class="card-title">Avatar 7 Days of Code</h2>
+        <p class="card-desc">
+          Desafio 7 Days of Code da Alura — back-end com Python,
+          consumo de API e manipulação de dados do universo Avatar.
+        </p>
+        <div class="card-bottom">
+          <div class="card-links">
+            <a href="https://github.com/karkwogvoldor/avatar_7_days" target="_blank">Github →</a>
+            <a href="https://avatar7days-production.up.railway.app/" target="_blank">Deploy →</a>
+          </div>
+          <span class="card-year">2024</span>
+        </div>
+      </div>
+
+      <div class="project-card" role="button" tabindex="0" data-cat="fe" data-project="netflix"
+        data-expanded="Projeto front-end desenvolvido durante a Imersão da Alura, recriando uma interface inspirada na Netflix. O foco está em semântica HTML, estilização moderna com CSS, organização de layout responsivo e interações visuais como hover em cards, cabeçalho fixo e banner principal. É um projeto importante para mostrar domínio de estruturação visual, composição de página, responsividade e atenção aos detalhes de interface usando HTML, CSS e JavaScript.">
+        <div class="card-top">
+          <span class="card-num">04</span>
+          <span class="card-tag fe">Front-End</span>
+        </div>
+        <h2 class="card-title">Netflix Clone — Alura Imersão</h2>
+        <p class="card-desc">
+          Recriação do layout da Netflix desenvolvida na Imersão Alura,
+          com HTML, CSS e JavaScript.
+        </p>
+        <div class="card-bottom">
+          <div class="card-links">
+            <a href="https://github.com/karkwogvoldor/netflix-alura-imersao" target="_blank">Github →</a>
+            <a href="https://karkwogvoldor.github.io/netflix-alura-imersao" target="_blank">Deploy →</a>
+          </div>
+          <span class="card-year">2024</span>
+        </div>
+      </div>
+
+      <div class="project-card" role="button" tabindex="0" data-cat="fe" data-project="road-game"
+        data-expanded="Jogo web em JavaScript inspirado na dinâmica de atravessar uma estrada evitando obstáculos. O projeto trabalha lógica de movimentação, colisão, atualização de estado e renderização no navegador com HTML, CSS e JavaScript. Mesmo sendo mais simples que uma aplicação back-end completa, ele é útil para demonstrar fundamentos importantes de programação: controle de fluxo, eventos, loop de jogo, posicionamento de elementos e resposta visual imediata às ações do usuário.">
+        <div class="card-top">
+          <span class="card-num">05</span>
+          <span class="card-tag fe">JavaScript</span>
+        </div>
+        <h2 class="card-title">Game Atravessar a Estrada</h2>
+        <p class="card-desc">
+          Jogo em JavaScript no estilo travessia, com movimentação, obstáculos e lógica de colisão para criar uma
+          experiência simples e interativa no navegador.
+        </p>
+        <div class="card-bottom">
+          <div class="card-links">
+            <a href="https://github.com/karkwogvoldor/game_atravessar_a_estrada" target="_blank">Github →</a>
+          </div>
+          <span class="card-year">2024</span>
+        </div>
+      </div>
+
+        </div>
+        <button class="projects-nav projects-prev is-hidden" type="button" aria-label="Voltar projetos">&lsaquo;</button>
+        <button class="projects-nav projects-next" type="button" aria-label="Ver mais projetos">&rsaquo;</button>
+      </div>
+
+      <article class="project-expanded" id="projectExpanded" aria-live="polite"></article>
+    </section>
+
+    <!-- EXPERIENCIAS -->
+
+    <!-- HTML — adiciona após a section #sobre -->
+    <section id="experiencias" class="exp">
+      <p class="exp-label">experiências</p>
+
+      <div class="exp-timeline">
+        <div class="exp-line"></div>
+
+        <!-- EXPERIÊNCIA 1 (esquerda / atual) -->
+        <div class="exp-item left">
+          <div class="exp-card-wrap">
+            <div class="exp-card">
+              <div class="exp-card-head">
+                <div class="exp-icon">XY</div>
+                <div class="exp-card-info">
+                  <p class="exp-role">Desenvolvedor Back-End Jr.</p>
+                  <p class="exp-company">Empresa XYZ</p>
+                  <p class="exp-period">Jan 2024 – Presente · 1 ano e 4 meses</p>
+                </div>
+              </div>
+              <p class="exp-desc">Desenvolvimento e manutenção de APIs REST, integração com bancos de dados relacionais
+                e não relacionais. Atuação em microsserviços e automação de processos internos.</p>
+              <div class="exp-tags">
+                <span class="exp-tag accent">Python</span>
+                <span class="exp-tag accent">FastAPI</span>
+                <span class="exp-tag">PostgreSQL</span>
+                <span class="exp-tag">Docker</span>
+              </div>
+            </div>
+          </div>
+          <div class="exp-center">
+            <div class="exp-dot"></div>
+          </div>
+          <div class="exp-empty"></div>
+        </div>
+
+        <!-- EXPERIÊNCIA 2 (direita) -->
+        <div class="exp-item right">
+          <div class="exp-empty"></div>
+          <div class="exp-center">
+            <div class="exp-dot" style="background:#3a3a38;"></div>
+          </div>
+          <div class="exp-card-wrap">
+            <div class="exp-card">
+              <div class="exp-card-head">
+                <div class="exp-icon">AB</div>
+                <div class="exp-card-info">
+                  <p class="exp-role">Estagiário de Tecnologia</p>
+                  <p class="exp-company">Empresa ABC</p>
+                  <p class="exp-period">Mar 2023 – Dez 2023 · 10 meses</p>
+                </div>
+              </div>
+              <p class="exp-desc">Suporte no desenvolvimento de scripts de automação e análise de dados. Participação em
+                sprints ágeis e documentação técnica de sistemas legados.</p>
+              <div class="exp-tags">
+                <span class="exp-tag accent">Python</span>
+                <span class="exp-tag">SQL</span>
+                <span class="exp-tag">Git</span>
+                <span class="exp-tag">Linux</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EXPERIÊNCIA 3 (esquerda) -->
+        <div class="exp-item left">
+          <div class="exp-card-wrap">
+            <div class="exp-card">
+              <div class="exp-card-head">
+                <div class="exp-icon">UF</div>
+                <div class="exp-card-info">
+                  <p class="exp-role">Monitor de Programação</p>
+                  <p class="exp-company">Universidade Federal</p>
+                  <p class="exp-period">Ago 2022 – Fev 2023 · 7 meses</p>
+                </div>
+              </div>
+              <p class="exp-desc">Auxílio a alunos nas disciplinas de lógica de programação e estruturas de dados.
+                Correção de exercícios e acompanhamento em laboratório.</p>
+              <div class="exp-tags">
+                <span class="exp-tag accent">Python</span>
+                <span class="exp-tag">C</span>
+                <span class="exp-tag">Algoritmos</span>
+              </div>
+            </div>
+          </div>
+          <div class="exp-center">
+            <div class="exp-dot" style="background:#3a3a38;"></div>
+          </div>
+          <div class="exp-empty"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="tecnologias" class="tech">
+      <p class="tech-label">tecnologias</p>
+      <div class="tech-grid">
+
+        <div class="tech-card">
+          <div class="tech-icon"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /></div>
+          <div class="tech-info">
+            <p class="tech-name">Python</p>
+            <p class="tech-sub">Linguagem principal</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+              style="filter:invert(1) grayscale(30%);" /></div>
+          <div class="tech-info">
+            <p class="tech-name">Django</p>
+            <p class="tech-sub">Web framework</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" /></div>
+          <div class="tech-info">
+            <p class="tech-name">FastAPI</p>
+            <p class="tech-sub">API framework</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" /></div>
+          <div class="tech-info">
+            <p class="tech-name">PostgreSQL</p>
+            <p class="tech-sub">Banco relacional</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" /></div>
+          <div class="tech-info">
+            <p class="tech-name">MySQL</p>
+            <p class="tech-sub">Banco relacional</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></div>
+          <div class="tech-info">
+            <p class="tech-name">HTML</p>
+            <p class="tech-sub">Markup language</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+          </div>
+          <div class="tech-info">
+            <p class="tech-name">CSS</p>
+            <p class="tech-sub">Interface styling</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></div>
+          <div class="tech-info">
+            <p class="tech-name">JavaScript</p>
+            <p class="tech-sub">Web scripting</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+          </div>
+          <div class="tech-info">
+            <p class="tech-name">Git</p>
+            <p class="tech-sub">Version control</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/railway/railway-original.svg" /></div>
+          <div class="tech-info">
+            <p class="tech-name">Railway</p>
+            <p class="tech-sub">Deploy & hosting</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img src="https://unpkg.com/simple-icons@v11/icons/cloudinary.svg"
+              style="filter: invert(0.6) sepia(1) saturate(2) hue-rotate(160deg);" /></div>
+          <div class="tech-info">
+            <p class="tech-name">Cloudinary</p>
+            <p class="tech-sub">Media storage</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">
+            <svg class="tech-svg claude-mark" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3v18" />
+              <path d="M3 12h18" />
+              <path d="M5.64 5.64 18.36 18.36" />
+              <path d="M18.36 5.64 5.64 18.36" />
+            </svg>
+          </div>
+          <div class="tech-info">
+            <p class="tech-name">Claude Code</p>
+            <p class="tech-sub">AI development tool</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img src="https://unpkg.com/simple-icons@v11/icons/openai.svg"
+              style="filter: invert(0.9) sepia(0.2) saturate(1.2);" /></div>
+          <div class="tech-info">
+            <p class="tech-name">OpenAI</p>
+            <p class="tech-sub">GPT models & APIs</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon"><img src="https://unpkg.com/simple-icons@latest/icons/ollama.svg"
+              style="filter: invert(0.9) sepia(0.2) saturate(1.2);" /></div>
+          <div class="tech-info">
+            <p class="tech-name">Ollama</p>
+            <p class="tech-sub">Local LLM deployment</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">
+            <svg class="tech-svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 21h6" />
+              <path d="M10 17h4" />
+              <path d="M8 14a6 6 0 1 1 8 0c-.9.7-1 1.6-1 2H9c0-.4-.1-1.3-1-2Z" />
+              <path d="M12 7v4" />
+              <path d="M10 9h4" />
+            </svg>
+          </div>
+          <div class="tech-info">
+            <p class="tech-name">Prompt Engineering</p>
+            <p class="tech-sub">Context & AI optimization</p>
+          </div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">
+            <svg class="tech-svg" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="5" y="7" width="14" height="11" rx="3" />
+              <path d="M12 7V4" />
+              <path d="M9 4h6" />
+              <path d="M9 12h.01" />
+              <path d="M15 12h.01" />
+              <path d="M9 16h6" />
+              <path d="M3 11v4" />
+              <path d="M21 11v4" />
+            </svg>
+          </div>
+          <div class="tech-info">
+            <p class="tech-name">AI Bots / Agents</p>
+            <p class="tech-sub">Automation & Integration</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT STRIP -->
+    <div class="about-strip">
+      <div>
+        <div class="about-label">Background</div>
+        <p class="about-val">
+          Engenheiro Químico com visão analítica e foco em resolver
+          problemas complexos via código.
+        </p>
+      </div>
+      <div>
+        <div class="about-label">Stack atual</div>
+        <p class="about-val">Python · SQL · REST APIs · HTML/CSS</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- BOTTOM BAR -->
+  <section id="contato" class="contato">
+    <div>
+      <p class="contato-label">contato</p>
+      <h2 class="contato-heading">Vamos trabalhar<br>juntos?</h2>
+      <p class="contato-desc">Se você tem um projeto em mente, quer colaborar ou simplesmente trocar uma ideia — estou
+        disponível. Me manda uma mensagem.</p>
+      <div class="contato-socials">
+        <a class="social-btn" href="https://github.com/karkwogvoldor" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
+          </svg>
+        </a>
+        <a class="social-btn" href="https://linkedin.com/in/jeronimo-eduardo-fuck/" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+        </a>
+        <a class="social-btn" href="https://instagram.com/jeronimofuck" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <form class="contato-form" id="contactForm" action="https://formsubmit.co/jeronimoef7@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Nova mensagem pelo portfolio">
+      <input type="hidden" name="_captcha" value="false">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Nome</label>
+          <input class="form-input" type="text" id="nome" name="nome" placeholder="Seu nome" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">E-mail</label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Mensagem</label>
+        <textarea class="form-textarea" id="mensagem" name="mensagem" placeholder="Olá!" required></textarea>
+      </div>
+      <button class="form-btn" type="submit" id="sendBtn">enviar mensagem →</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <p class="footer-logo">JFK</p>
+      <p class="footer-copy">© 2026 Jerônimo Eduardo Fuck</p>
+    </div>
+    <div>
+      <p class="footer-col-label">mapa do site</p>
+      <div class="footer-links">
+        <a href="#">Página Inicial</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#experiencias">Experiências</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+    <div>
+      <p class="footer-col-label">redes sociais</p>
+      <div class="footer-links">
+        <a href="https://github.com/karkwogvoldor" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/jeronimo-eduardo-fuck/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://instagram.com/jeronimofuck" target="_blank" rel="noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="theme.js?v=11"></script>
+</body>
+
+</html>
