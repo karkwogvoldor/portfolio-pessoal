@@ -46,11 +46,14 @@ const projectReadmes = {
     ],
   },
   joseph: {
-    stack: ["Python 3.12", "Django", "discord.py", "PostgreSQL", "BeautifulSoup4", "Playwright"],
+    stack: ["Python 3.12", "Django", "discord.py", "PostgreSQL", "BeautifulSoup4", "Playwright", "Ollama", "LLM Local"],
     highlights: [
       "Bot de Discord para consultar granadas de Counter-Strike 2 por mapa e destino.",
       "Comandos para smokes, flashes, molotovs e HEs com instruções e vídeos de execução.",
-      "Une bot, banco de dados, painel administrativo e importação de dados por scraping.",
+      "LLM local via Ollama para conversa em chat sem API key, sem custo e com dados rodando na própria máquina.",
+      "Sistema de persona totalmente personalizável, com contexto ajustável por prompt e comportamento configurável.",
+      "Memória em duas camadas: histórico recente em JSON e resumo automático para manter continuidade sem perder performance.",
+      "Une bot, banco de dados, painel administrativo, importação por scraping e camada de IA conversacional.",
     ],
     images: [
       { src: "assets/imagens/bot1.jpg", alt: "Joseph Bot no Discord" },
