@@ -1,6 +1,6 @@
 # Portfolio Pessoal - Jeronimo Eduardo Fuck
 
-Portfolio pessoal desenvolvido para apresentar minhas criações no desenvolvimento back-end/fullstack, reunindo projetos, experiencias profissionais, tecnologias, links sociais e formulario de contato.
+Portfolio pessoal desenvolvido para minha apresentação como desenvolvedor back-end/fullstack, reunindo projetos, experiencias profissionais, tecnologias, links sociais e formulario de contato.
 
 ## Deploy
 
